@@ -5,7 +5,7 @@ Darling in the Franxx Discord Theme
 
 Тема использует код и работы других пользователей. Взяты наработки из других тем для Discord.
 
-////////////////////////////////////////////////////////////////////////
+----------------English----------------
 
 Theme for Discord - Darling in the Franxx | 02 or Yota
 For the theme to work you need BetterDiscord
