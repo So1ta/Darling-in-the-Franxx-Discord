@@ -1,5 +1,8 @@
 # Darling-in-the-Franxx-Discord
 Darling in the Franxx Discord Theme
+
+![Image alt]([https://So1ta.github.io/Images/ThemeView.png))
+
 Тема для Discord под названием Darling in the Franxx | 02 or Yota
 
 Для работы темы нужно установить BetterDiscord.
