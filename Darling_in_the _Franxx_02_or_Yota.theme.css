@@ -17,16 +17,16 @@
 /* ↓ Шрифт ↓ */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
 /* ↓ Статус пользователя в кружке ↓ */
-@import url("https://discordstyles.github.io/SoftX/RadialGlow.css");
+@import url("https://So1ta.github.io/css/RadialGlow.css");
 /* ↓ Вертикальное расположение аватара, значоков мута микрофона/настроек ↓ */
-@import url("https://discordstyles.github.io/SoftX/VerticalUserArea.css"); 
+@import url("https://So1ta.github.io/css/VerticalUserArea.css"); 
 /* ↓ Верхний бар со значком дискорд/поиск/закрыть/свернуть ↓ */
-@import url("https://discordstyles.github.io/Addons/windows-titlebar.css");
+@import url("https://So1ta.github.io/css/windows-titlebar.css");
 /* ↓ Основа ↓ */
-@import url(https://vsthemes.org/uploads/generator/client/BasicBackground.css);
+@import url("https://So1ta.github.io/css/BasicBackground.css");
 
 :root {
-    --background: url("https://i.imgur.com/ZfdSf3D.jpg"); /* Задний фон (Пометка: если меняете на свой, лучше используйте ссылку как у меня, иначе изображение не загрузится) */
+    --background: url("https://so1ta.github.io/css/Franxx_02_4k.png"); /* Задний фон (Пометка: если меняете на свой, лучше используйте ссылку как у меня, иначе изображение не загрузится) */
     --border-radius: 30px;              /* Объем аватарок каналов (круг-квадрат) */
     --transparencyalpha: 0.6;           /* Цвет заднего фона (общего) */
     --font: "Inter";                    /* Шрифт */
