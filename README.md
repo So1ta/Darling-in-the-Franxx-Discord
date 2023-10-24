@@ -1,7 +1,7 @@
 # Darling-in-the-Franxx-Discord
 ![Image alt](https://So1ta.github.io/Images/ThemeView.png)
 
-Тема для Discord под названием Darling in the Franxx | 02 or Yota
+Тема для Discord под названием Darling in the Franxx | 02 or Yota 4K
 
 Тема использует код и работы других пользователей. Взяты наработки из других тем для Discord.
 
@@ -15,7 +15,7 @@
 
 ## English version
 
-Theme for Discord - Darling in the Franxx | 02 or Yota
+Theme for Discord - Darling in the Franxx | 02 or Yota 4K
 
 The theme uses code and work from other users. Developments taken from other Discord themes.
 
