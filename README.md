@@ -27,6 +27,6 @@ The topic will be updated as we study, if you find an error, please write about 
 
 2. The file "Darling_in_the _Franxx_02_or_Yota.theme.css" must be transferred to the Themes.
 
-## Gratitude
+## Thanks
 
 [SoftX](https://betterdiscord.app/theme/SoftX), [BlurpleRecolor](https://betterdiscord.app/theme/BlurpleRecolor), [RadialStatus](https://betterdiscord.app/theme/RadialStatus), @Gibbu
