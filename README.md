@@ -29,4 +29,4 @@ The topic will be updated as we study, if you find an error, please write about 
 
 ## Gratitude
 
-[SoftX](https://betterdiscord.app/theme/SoftX), [BlurpleRecolor](https://betterdiscord.app/theme/BlurpleRecolor), @Gibbu
+[SoftX](https://betterdiscord.app/theme/SoftX), [BlurpleRecolor](https://betterdiscord.app/theme/BlurpleRecolor), [RadialStatus](https://betterdiscord.app/theme/RadialStatus), @Gibbu
