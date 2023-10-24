@@ -13,7 +13,7 @@
 
 2. Файл "Darling_in_the _Franxx_02_or_Yota.theme.css" нужно перекинуть в папку Themes.
 
-## ----------------English----------------
+## English version
 
 Theme for Discord - Darling in the Franxx | 02 or Yota
 
