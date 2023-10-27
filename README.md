@@ -9,7 +9,7 @@
 
 ## Установка
 
-1. Для работы темы нужно установить BetterDiscord.
+1. Для работы темы нужно установить [BetterDiscord](https://betterdiscord.app/themes).
 
 2. Файл "Darling_in_the _Franxx_02_or_Yota.theme.css" нужно перекинуть в папку Themes.
 
@@ -23,7 +23,7 @@ The topic will be updated as we study, if you find an error, please write about 
 
 ## Installing
 
-1. For the theme to work you need BetterDiscord.
+1. For the theme to work you need [BetterDiscord](https://betterdiscord.app/themes).
 
 2. The file "Darling_in_the _Franxx_02_or_Yota.theme.css" must be transferred to the Themes.
 
