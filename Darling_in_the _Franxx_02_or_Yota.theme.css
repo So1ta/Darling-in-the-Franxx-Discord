@@ -8,66 +8,43 @@
 /*
  * Изображение переведено в 4К формат.
  * Если вы нашли ошибку или лишний код, напишите мне, контакты выше.
- * Буду рад, если подскажите как и что исправить!
- * Тема будет дорабатываться.
 */
 
 /* ↓ Шрифт ↓ */
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap");
 /* ↓ Статус пользователя в кружке ↓ */
-@import url("https://So1ta.github.io/css/RadialGlow.css");
+@import url("https://discordstyles.github.io/SoftX/RadialGlow.css");
 /* ↓ Вертикальное расположение аватара, значоков мута микрофона/настроек ↓ */
-@import url("https://So1ta.github.io/css/VerticalUserArea.css"); 
+@import url("https://discordstyles.github.io/SoftX/VerticalUserArea.css"); 
 /* ↓ Верхний бар со значком дискорд/поиск/закрыть/свернуть ↓ */
-@import url("https://So1ta.github.io/css/windows-titlebar.css");
+@import url("https://discordstyles.github.io/Addons/windows-titlebar.css");
 /* ↓ Основа ↓ */
-@import url("https://So1ta.github.io/css/BasicBackground.css");
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.theme.css");
 
 :root {
-    --background: url("https://so1ta.github.io/css/Franxx_02_4k.png"); /* Задний фон (Пометка: если меняете на свой, лучше используйте ссылку как у меня, иначе изображение не загрузится) */
-    --border-radius: 30px;              /* Объем аватарок каналов (круг-квадрат) */
-    --transparencyalpha: 0.6;           /* Цвет заднего фона (общего) */
-    --font: "Inter";                    /* Шрифт */
+  --background: url("https://so1ta.github.io/css/Franxx_02_4k.png"); /* Задний фон (Пометка: если меняете на свой, лучше используйте ссылку как у меня, иначе изображение не загрузится) */
+  --font:                       "Inter";      /* Шрифт */
+  --transparencyalpha:          0.6;          /* Блюр заднего фона (общего) */
+  --transparencycolor:			    0,0,0;				/* Цвет заднего фона (общего) */
+	--messagetransparency:			  0;						/* Блюр заднего фона за сообщениями */
+	--guildchanneltransparency:		0;						/* Блюр заднего фона доролнительный	*/
+	--chatinputtransparency:		  0;				  	/* Блюр заднего фона input чата */
+	--memberlisttransparency:		  0.3;					/* Блюр заднего фона участников	*/
+	--accentcolor:					      0,0,0;				/* Общий цвет */	
 }
 
 .theme-dark {
-  --text-normal: #f8e1e5;             /* Цвет текста в сообщениях */
-  --header-primary: #f8e1e5;          /* Цвет доп. текста */
+  --text-normal:        #f8e1e5;      /* Цвет текста в сообщениях */
+  --header-primary:     #f8e1e5;      /* Цвет доп. текста */
   --interactive-normal: #f8e1e5;      /* Цвет иконок */
-  --channels-default: #f8e1e5;        /* Цвет доп. иконок и текста */
-  --text-muted: #f8e1e5;              /* Цвет даты сообщения */
-  --interactive-muted: #f8e1e5;       /* Хз */
-  --header-secondary: #f8e1e5;        /* Цвет некоторого текста в настройках */
-  --interactive-hover: #ffa3b3;       /* Цвет текста выбранного канала ПРИ НАВЕДЕНИИ МЫШИ либо значков мута микрофона (Имеется ввиду чата или голосового канала) */
+  --channels-default:   #f8e1e5;      /* Цвет доп. иконок и текста */
+  --text-muted:         #f8e1e5;      /* Цвет даты сообщения */
+  --interactive-muted:  #f8e1e5;      /* Хз */
+  --header-secondary:   #f8e1e5;      /* Цвет некоторого текста в настройках */
+  --interactive-hover:  #ffa3b3;      /* Цвет текста выбранного канала ПРИ НАВЕДЕНИИ МЫШИ либо значков мута микрофона (Имеется ввиду чата или голосового канала) */
   --interactive-active: #ffa3b3;      /* Цвет текста выбранного канала (Имеется ввиду чата или голосового канала) */
-
-  /* Background color */
-  --background-primary: #0002;        /* Цвет заднего фона за сообщениями */
-  --background-secondary: #0006;      /* Цвет заднего фона за аватарками */
-  --background-secondary-alt: #0005;
-  --background-tertiary: #000;        /* Цвет заднего фона верхней полосы */
-  --background-floating: #0005;
-  --background-accent: #0005;
-  --channeltextarea-background: var(--background-secondary);
-  --modal-background: var(--background-primary);
-  --background-modifier-hover: #000;/* Цвет вкладки выбранного канала ПРИ НАВЕДЕНИИ МЫШИ либо значков мута микрофона (Имеется ввиду чата или голосового канала) */
-  --background-modifier-active: #000;/* Цвет вкладки выбранного канала (Имеется ввиду чата или голосового канала) */
-  --background-modifier-selected: #000;/* Цвет выбранной вкладки Друзья/Nitro/Магазин */
-  --toast-background: #000 !important;/* Хз */
-  --toast-header: #000 !important;/* Хз */
-  --toast-contents: #000 !important;/* Хз */
-  --toast-border: #000 !important;/* Хз */
-  --input-background: var(--background-secondary);/* Хз */
-
-  /* Scrollbar */
-  --scrollbar-auto-thumb: var(--background-tertiary);
-  --scrollbar-auto-track: var(--background-secondary-alt);
-  --scrollbar-thin-thumb: var(--background-tertiary);
-  --scrollbar-thin-track: transparent;
-
-  /* Other */
-  --channel-text-area-placeholder: var(--interactive-normal);
-  --deprecated-quickswitcher-input-background: var(--background-primary);
 }
+
+
 
 /* Custom CSS below here / Свой код писать сюда, если добавляете еще что-то*/
