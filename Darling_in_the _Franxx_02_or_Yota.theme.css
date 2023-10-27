@@ -3,9 +3,6 @@
  * @author Solta
  * @version 1.0.0
  * @description Тема с 02 из Darling in the Franxx
-*/
-
-/*
  * Изображение переведено в 4К формат.
  * Если вы нашли ошибку или лишний код, напишите мне, контакты выше.
 */
@@ -30,21 +27,20 @@
 	--guildchanneltransparency:		0;						/* Блюр заднего фона доролнительный	*/
 	--chatinputtransparency:		  0;				  	/* Блюр заднего фона input чата */
 	--memberlisttransparency:		  0.3;					/* Блюр заднего фона участников	*/
-	--accentcolor:					      190,78,180;		/* Общий цвет */	
+	--accentcolor:					      255,163,179,0.4;		      /* Общий цвет */
+  --accentcolor2:					      205, 92, 92 !important;   /* Общий цвет 2*/
+	--mentioncolor:					      205, 92, 92 !important;
+	--linkcolor:					        205, 92, 92 !important;	  /* Цвет ссылок */
 }
 
 .theme-dark {
-  --text-normal:        #f8e1e5;      /* Цвет текста в сообщениях */
-  --header-primary:     #f8e1e5;      /* Цвет доп. текста */
-  --interactive-normal: #f8e1e5;      /* Цвет иконок */
-  --channels-default:   #f8e1e5;      /* Цвет доп. иконок и текста */
-  --text-muted:         #f8e1e5;      /* Цвет даты сообщения */
-  --interactive-muted:  #f8e1e5;      /* Хз */
-  --header-secondary:   #f8e1e5;      /* Цвет некоторого текста в настройках */
-  --interactive-hover:  #ffa3b3;      /* Цвет текста выбранного канала ПРИ НАВЕДЕНИИ МЫШИ либо значков мута микрофона (Имеется ввиду чата или голосового канала) */
-  --interactive-active: #f8e1e5;      /* Цвет текста выбранного канала (Имеется ввиду чата или голосового канала) */
+  --text-normal:                #f8e1e5;      /* Цвет текста в сообщениях */
+  --text-muted:                 #f8e1e5;      /* Цвет даты сообщения */
+  --header-primary:             #f8e1e5;      /* Цвет доп. текста */
+  --channels-default:           #f8e1e5;      /* Цвет доп. иконок и текста */
+  --header-secondary:           #f8e1e5;      /* Цвет некоторого текста в настройках */
+  --interactive-normal:         #f8e1e5;      /* Цвет иконок */
+  --interactive-hover:          #ffffff;      /* Цвет текста выбранного канала ПРИ НАВЕДЕНИИ МЫШИ либо значков мута микрофона (Имеется ввиду чата или голосового канала) */
+  --interactive-active:         #ffffff;      /* Цвет текста выбранного канала (Имеется ввиду чата или голосового канала) */
+  --background-modifier-accent: #fff2;        /* Цвет полосы между сообщениями, участниками */
 }
-
-
-
-/* Custom CSS below here / Свой код писать сюда, если добавляете еще что-то*/
