@@ -3,10 +3,6 @@
 
 Тема для Discord под названием Darling in the Franxx | 02 or Yota 4K
 
-Тема использует код и работы других пользователей. Взяты наработки из других тем для Discord.
-
-По мере изучения тема будет обновляться, если нашли ошибку, пожалуйста, напишите об этом.
-
 ## Установка
 
 1. Для работы темы нужно установить [BetterDiscord](https://betterdiscord.app/themes).
@@ -16,10 +12,6 @@
 ## English version
 
 Theme for Discord - Darling in the Franxx | 02 or Yota 4K
-
-The theme uses code and work from other users. Developments taken from other Discord themes.
-
-The topic will be updated as we study, if you find an error, please write about it.
 
 ## Installing
 
